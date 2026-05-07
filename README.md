@@ -83,6 +83,4 @@ There are 2 subtract shapes (rather than 1) because splitting the original shape
 ## Improvements
 (tba)
 
-## Improvements
-
    
