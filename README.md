@@ -63,7 +63,7 @@ Alternatively, if you have access to a SnapMaker U1, download and use the 3MF to
 The connector's shape and size make it difficult (and painful) to repeatedly insert into fresh parts.  The installer is has a socket with a looser tolerance than a standard SnapMate socket and provides a way to grip and maneuver a connector for easier installation.  In your slicer of choice, import the 3 STLs named 'INSTALLER' as an object with multiple parts, print unsuppported in PLA.  Ignore the files named 'DETAILS' for a single color version.      
 
 ## Sample project
-(coming soon)
+(tba)
 
 ## How to create the sockets
 **The STEP files named "SUBTRACT A" and "SUBTRACT B" are positive shapes that must be imported into CAD software, then subtracted from existing parts to create the sockets.**<br>
@@ -79,6 +79,9 @@ There are 2 subtract shapes (rather than 1) because splitting the original shape
 4.  Transform (move) the two subtract shapes from mate-connector 1 to mate-connector 2
 5.  Boolean subtract the subtract shapes from parts A and B
 6.  Add a 1mm fillet to the 2 edges of each socket that first contact the connector (this makes it easier to insert and doesn't change the fit)
+
+## Improvements
+(tba)
 
 ## Improvements
 
