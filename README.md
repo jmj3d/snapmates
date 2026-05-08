@@ -59,7 +59,7 @@ The connector can be printed independently by downloading and importing the 3 ST
 
 Alternatively, if you have access to a SnapMaker U1, download and use the 3MF to print a batch of connectors with tested filament and print settings.   
 ### Installer
-![SnapMate Installer](https://github.com/jmj3d/snapmates/blob/main/PNG/SnapMate_Installer.png?raw=true)
+![SnapMate Installer](PNG/SnapMate_Installer.png)
 The connector's shape and size make it difficult (and painful) to repeatedly insert into fresh parts.  The installer is has a socket with a looser tolerance than a standard SnapMate socket and provides a way to grip and maneuver a connector for easier installation.  In your slicer of choice, import the 3 STLs named 'INSTALLER' as an object with multiple parts, print unsuppported in PLA.  Ignore the files named 'DETAILS' for a single color version.      
 
 ## Sample project
