@@ -1,6 +1,6 @@
 # SnapMates
 An open source snap-fit solution for FDM printers<br>
-![SnapMate WORKING](https://github.com/jmj3d/snapmates/blob/main/GIF/SnapMates_Step_03.gif?raw=true)
+![SnapMate WORKING](https://github.com/jmj3d/snapmates/blob/main/assets/GIF/SnapMates_Step_03.gif?raw=true)
 
 
 ## Contents
