@@ -52,7 +52,7 @@ The unique geometry shared by the connector and socket creates a semi-permanent,
 ![SnapMate Removal](GIF/SnapMates_Removal.gif?raw=true)
 
 ## Print files
-![SnapMate Print Bed](PNG/SnapMates_Connector_Installer_3MF_PRINTBED_1000.png)
+![SnapMate Print Bed](PNG/SnapMates_Connector_Installer_3MF_PRINTBED_1000a.png)
 If you have access to a SnapMaker U1, [download the 3MF](3MF/) to print a batch of connectors and installers with tested filament and print settings.<br>
 Designed for multi-material printers, the SnapMate connector may be printed on traditional FDM printers using a single rigid filament (like PLA), omitting the flexible backstops.  The mechanism will work for a time, but failure will be faster and more drastic.
 
