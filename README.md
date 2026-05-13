@@ -1,6 +1,9 @@
 # SnapMates
 An open source snap-fit solution for FDM printers<br>
-![SnapMate WORKING](GIF/SnapMates_Step_03.gif?raw=true)
+<dl align="left" style="max-width: 640; inline-block;">
+    <img src="GIF/SnapMates_Step_03.gif?raw=true" alt="SnapMate WORKING"><br>
+<dd><sub>Incorporate them directly into your models as an alternative to glue or screws</sub></dd>
+</dl>
 
 
 ## Contents
@@ -49,7 +52,10 @@ The unique geometry shared by the connector and socket creates a semi-permanent,
 ![SnapMate Removal](GIF/SnapMates_Removal.gif?raw=true)
 
 ## Print files
-Designed for multi-material printers, the SnapMate connector may be printed on traditional FDM printers using a single rigid filament (like PLA), omitting the flexible backstops.  The mechanism will work for a time, but it will fail faster and more dramatically.  
+![SnapMate Print Bed](PNG/SnapMates_Connector_Installer_3MF_PRINTBED_1000.png)
+If you have access to a SnapMaker U1, [download the 3MF](3MF/) to print a batch of connectors and installers with tested filament and print settings.<br>
+Designed for multi-material printers, the SnapMate connector may be printed on traditional FDM printers using a single rigid filament (like PLA), omitting the flexible backstops.  The mechanism will work for a time, but failure will be faster and more drastic.
+
 ### Connector
 ![SnapMate Penny](PNG/SnapMate_Penny_1000.png?raw=true)
 **The connector can be printed independently by downloading and importing the 3 STEP files named 'connector' into your multi-material capable slicer** (I use [SnapMaker Orca](https://www.snapmaker.com/snapmaker-orca)).  Select 'yes' when prompted to load files as a single object with multiple parts.  Assign PEBA to the flex locators and PLA to the frame.  
@@ -57,7 +63,6 @@ Designed for multi-material printers, the SnapMate connector may be printed on t
 - Enable PLA supports (second reminder)
 - PEBA prints better at higher temps (~250C) and does not naturally bond with PLA.  Once the first purge layer of PEBA lays down flat, the rest is easy.  I had success by eliminating the part cooling fan and reducing print speed for the first few layers of PEBA - a slower, hotter print has more opportunity to mechanical bond with the imperfections in the PLA.      
 
-Alternatively, if you have access to a SnapMaker U1, download and use the 3MF to print a batch of connectors with tested filament and print settings.   
 ### Installer
 ![SnapMate Installer](PNG/SnapMate_Installer.png)
 The connector's shape and size make it difficult (and painful) to repeatedly insert into fresh parts.  The installer is has a socket with a looser tolerance than a standard SnapMate socket and provides a way to grip and maneuver a connector for easier installation.  In your slicer of choice, import the 3 STLs named 'INSTALLER' as an object with multiple parts, print unsuppported in PLA.  Ignore the files named 'DETAILS' for a single color version.
