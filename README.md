@@ -73,7 +73,7 @@ The connector's shape and size make it difficult (and painful) to repeatedly ins
 ## How to create the sockets
 **The STEP files named "SUBTRACT A" and "SUBTRACT B" are positive shapes that must be imported into CAD software, then subtracted from existing parts to create the sockets.**<br>
 <p align="center">
- *** Do not use the installer as a template for the sockets.  It is intentionally loose. *** 
+ <sub>*** Do not use the installer as a template for the sockets.  It is intentionally loose. ***</sub>
 </p>
 There are 2 subtract shapes (rather than 1) because splitting the original shape into two halves creates a shared face of equal size and shape. Use this shared face to locate the subtract shapes on your models.  The primary axis of the shared face should align with a shared face on the the models. These instructions assume 2 parts (A & B) also share a flush face - no gap or tolerance between them.<br>
 
