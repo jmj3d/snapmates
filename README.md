@@ -78,9 +78,7 @@ There are 2 subtract shapes (rather than 1) because splitting the original shape
 3.  Place mate-connector 2 on the face shared by part A & B where socket is desired (The parts are flush, so it can be either A or B.  Check that both parts have at least 7.5mm of depth. This allows for a minimum 1.2mm rear socket wall)
 4.  Transform (move) the two subtract shapes from mate-connector 1 to mate-connector 2
 5.  Boolean subtract the subtract shapes from parts A and B
-6.  Add a 1mm fillet to the 2 edges of each socket that first contact the connector (this makes it easier to insert and doesn't change the fit)
+6.  ~~Add a 1mm fillet to the 2 edges of each socket that first contact the connector (this makes it easier to insert and doesn't change the fit)~~ (the subtract shapes' geometry has been updated to include the fillet)
 
 ## Improvements
 (tba)
-
-   
