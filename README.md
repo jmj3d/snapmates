@@ -26,7 +26,7 @@ FDM printed parts tend to have trouble with #1 on that list. Minimum feature siz
 ## SnapMates are different
 ![SnapMate Materials Dimensions](PNG/SnapMate_Materials_Dimensions.png?raw=true)
 ### Materials
-SnapMates have a multi-material design that overcomes the limitations of traditional FDM printing.  Stiffness from a PLA frame creates a tight and precise fit.  PEBA inserts control flexibility and allow for repeated use.  They can be left in place as semi-permanent connectors or removed and reused.  SnapMates are a direct result of two recent developments in 3D printing:
+SnapMates have a multi-material design that overcomes the limitations of traditional FDM printing.  Stiffness from a PLA frame creates a tight and precise fit.  PEBA 85A inserts control flexibility and allow for repeated use.  They can be left in place as semi-permanent connectors or removed and reused.  SnapMates are a direct result of two recent developments in 3D printing:
 1. reliable/fast/inexpensive multi-material printing (I used the [SnapMaker U1](https://us.snapmaker.com/products/snapmaker-u1-3d-printer))
 2. access to industrial grade flexible filaments like PEBA  
 
@@ -62,7 +62,7 @@ If you have access to a SnapMaker U1, [download the 3MF](3MF/) to print a batch 
 
 ### Connector
 ![SnapMate Penny](PNG/SnapMate_Penny_1000.png?raw=true)
-**The connector can be printed independently by downloading and importing the 3 STEP files named 'connector' into your multi-material capable slicer** (I use [SnapMaker Orca](https://www.snapmaker.com/snapmaker-orca)).  Select 'yes' when prompted to load files as a single object with multiple parts.  Assign PEBA to the flex locators and PLA to the frame.  
+**The connector can be printed independently by downloading and importing the 3 STEP files named 'connector' into your multi-material capable slicer** (I use [SnapMaker Orca](https://www.snapmaker.com/snapmaker-orca)).  Select 'yes' when prompted to load files as a single object with multiple parts.  Assign PEBA 85A to the flex locators and PLA to the frame.  
 - The PEBA parts are designed with overhangs requiring PLA supports.  Never let PEBA print directly on the build plate.  It can stick forever.
 - Enable PLA supports (second reminder)
 - PEBA prints better at higher temps (~250C) and does not naturally bond with PLA.  Once the first purge layer of PEBA lays down flat, the rest is easy.  I had success by eliminating the part cooling fan and reducing print speed for the first few layers of PEBA - a slower, hotter print has more opportunity to mechanical bond with the imperfections in the PLA.      
